@@ -8,7 +8,7 @@ You should preferably use USA Rev 1 (https://redump.info/disc/70511) when extrac
 # How?
 When Rayman Raving Rabbids: TV Party (the game you're looking at right now) was shipped, Ubisoft failed to strip the debugging symbols from the disc.
 
-This resulted in it shipping with ELF files named "EnjimeWii_NO*_g.elf" (* depends based on the disc's region; a USA disc will have an A (NOA), Europe, Japan and Korea discs have currently not been checked).
+This resulted in it shipping with ELF files named "EnjimeWii_NO*_g.elf" (* depends based on the disc's region; a USA disc will have an A (NOA), Europe, Japan and Korea discs have currently not been checked). Those ELF files can be opened in Ghidra using an extension like [https://github.com/cuyler36/ghidra-gamecube-loader](Ghidra-GameCube-Loader) (hey, it also works for Wii games, despite being called "Ghidra-***GameCube***-loader).
 
 They also did not strip the symbols when releasing Revision 1 (the revision this decompilation is based off of).
 
